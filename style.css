@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: aqua;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5rem;
+    
+}
+.rock{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.paper{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.scissors{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image:hover{
+    background-color: black;
+    border: 5px solid black;
+}
+.scores{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 30px;
+}
+.user-score{
+    font-size: 20px;
+    flex-direction: column;
+}
+.comp-score{
+    font-size: 20px;
+}
+.messages{
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+    
+    height: 30px;
+}
+.play{
+    justify-content: center;
+    width: 200px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 12px;
+}
